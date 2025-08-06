@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_value_points",
+  "info": {
+    "displayName": "ValuePoint",
+    "icon": "key"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "metric": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

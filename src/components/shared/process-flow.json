@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_process_flows",
+  "info": {
+    "displayName": "ProcessStep",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "step_number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

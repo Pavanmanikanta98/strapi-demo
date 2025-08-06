@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "value_chains",
+  "info": {
+    "singularName": "value-chain",
+    "pluralName": "value-chains",
+    "displayName": "Value Chain"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.testimonial",
+        "shared.value-point"
+      ]
+    },
+    "business_case": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::business-case.business-case",
+      "private": true,
+      "inversedBy": "value_chain"
+    }
+  }
+}

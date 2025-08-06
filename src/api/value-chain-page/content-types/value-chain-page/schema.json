@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "value_chain_pages",
+  "info": {
+    "singularName": "value-chain-page",
+    "pluralName": "value-chain-pages",
+    "displayName": "Value Chain Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_content": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.value-point",
+        "shared.testimonial"
+      ]
+    }
+  }
+}

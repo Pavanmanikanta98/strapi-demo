@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_cases",
+  "info": {
+    "singularName": "business-case",
+    "pluralName": "business-cases",
+    "displayName": "Business Case."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ClientName": {
+      "type": "text"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "problemStatement": {
+      "type": "text",
+      "required": true
+    },
+    "ourSolution": {
+      "type": "blocks",
+      "required": true
+    },
+    "value_chain": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::value-chain.value-chain",
+      "private": true,
+      "mappedBy": "business_case"
+    },
+    "process_flow": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::process-flow.process-flow",
+      "private": true,
+      "mappedBy": "business_case"
+    }
+  }
+}

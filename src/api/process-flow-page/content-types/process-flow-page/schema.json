@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "process_flow_pages",
+  "info": {
+    "singularName": "process-flow-page",
+    "pluralName": "process-flow-pages",
+    "displayName": "Process Flow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "steps": {
+      "type": "component",
+      "component": "shared.process-flow",
+      "repeatable": true
+    }
+  }
+}
