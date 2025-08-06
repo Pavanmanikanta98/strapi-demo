@@ -9,10 +9,10 @@ cd strapi-project
 ```
 
 2. Install Dependencies
-   ```
+```
    npm install
 
-   ```
+ ```
 3. Run the Project
   ```
 npm run develop
@@ -24,11 +24,17 @@ npm run develop
 - Create a new admin user with your email and password.
 
 5. you’ll see a screen like:
+
 🟢 Create the First Admin User
+
 They just need to fill:
+
 Email
+
 Password
+
 Username
+
 
 ✅ That’s it — you’ll have access to the admin dashboard and your whole Content Builder setup.
 
