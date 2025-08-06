@@ -39,17 +39,17 @@ Username
 ✅ That’s it — you’ll have access to the admin dashboard and your whole Content Builder setup.
 
 
-### Overview of Strapi Admin Panel
+## `Overview of Strapi Admin Panel`
 
-1. Content Manager
+1. ### `Content Manager`
 
 The Content Manager is the main area where you create, read, update, and delete content entries for your defined Content Types (like Blog, Article, Product, etc.).
 
-2. ## `Content-Type Builder`
+2. #### `Content-Type Builder`
 
 The Content-Type Builder is where you define and modify your data structure — your backend schema.
 
-3. ## `Settings `
+3. #### `Settings `
 
 The Settings panel is for managing permissions, roles, email providers, environment configs, etc.
 
