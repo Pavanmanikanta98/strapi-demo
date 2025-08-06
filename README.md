@@ -5,18 +5,15 @@
 ```
 git clone https://github.com/yourusername/strapi-project.git
 cd strapi-project
-
 ```
 
 2. Install Dependencies
 ```
 npm install
-
  ```
 3. Run the Project
 ```
 npm run develop
-
 ```
 
 4. Open Admin Panel
@@ -45,11 +42,11 @@ Username
 
 The Content Manager is the main area where you create, read, update, and delete content entries for your defined Content Types (like Blog, Article, Product, etc.).
 
-2. #### `Content-Type Builder`
+2. ### `Content-Type Builder`
 
 The Content-Type Builder is where you define and modify your data structure — your backend schema.
 
-3. #### `Settings `
+3. ### `Settings `
 
 The Settings panel is for managing permissions, roles, email providers, environment configs, etc.
 
